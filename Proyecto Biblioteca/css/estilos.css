@@ -1,0 +1,167 @@
+.navbar{
+    display: block;
+}
+.navbar-brand {
+    font-weight: bold; 
+    
+}
+
+.container {
+    margin-top: 10px; 
+}
+
+#imagen-fondo {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    height: 1000px;
+    right: 0;
+    z-index: -1; 
+}
+
+#imagen-fondo img {
+    width: 50%;
+    height: 50%;
+}
+.card {
+    margin-bottom: 20px; 
+    margin-top: 15%;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow:0px 50px 50px rgb(0, 0, 0);
+}
+
+.card-title {
+    font-size: 18px; 
+}
+
+.card-text {
+    font-size: 14px; 
+}
+
+.btn-primary {
+    background-color: #ffffff; 
+    border-color: #343A40; 
+    color: #000000; 
+}
+
+.btn-primary:hover {
+    background-color: #343A40; 
+    border-color: #343A40; 
+}
+
+.img-card {
+    width: 80%;
+    height: auto; 
+
+}
+.img-card2 {
+    width: 51%;
+    height: auto; 
+
+
+}
+
+.img-card3 {
+    width: 51%;
+    height: auto; 
+    margin-right: 20px;
+}
+.card-body{
+    margin-top: 5%;
+}
+
+
+/*footer*/
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    padding: 2rem;
+    background: #343A40;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin-right: 10px; 
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-icon {
+    width: 40px; 
+    margin-bottom: 10px; 
+}
+
+.container-fluid{
+    margin-top: 5%;
+}
+
+.footer2 {
+    position:static;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: #343A40;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    
+}
+
+
+
+.cta-inner {
+    background-color: #f8f9fa; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.cta-inner h2 {
+    color: #343a40; 
+}
+
+.form-floating input,
+.form-floating textarea {
+    border-radius: 10px; 
+    border-color: #ced4da; 
+}
+
+.form-floating label {
+    color: #343a40; 
+}
+
+.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40; 
+}
+
+.btn-outline-dark:hover {
+    color: #fff; 
+    background-color: #343a40; 
+    border-color: #343a40; 
+}
